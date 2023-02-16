@@ -1,7 +1,5 @@
 # alx-low_level_programming
 
-# **C - Hello, World**
-
 ## General
 
 * Why C programming is awesome (don’t forget to tweet today, with the hashtag #cisfun :))
