@@ -2,7 +2,6 @@
  * File: 101-print_comb4.c
  * Auth: Omar k Ahmed
  */
-
 #include <stdio.h>
 
 /**
