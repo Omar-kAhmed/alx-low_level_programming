@@ -1,3 +1,7 @@
+/*
+ * File: 102-print_comb5.c
+ * Auth: Omar k Ahmed
+ */
 #include <stdio.h>
 
 /**
