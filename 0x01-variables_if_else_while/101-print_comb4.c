@@ -1,5 +1,5 @@
 /*
- * File: 102-print_comb5.c
+ * File: 101-print_comb4.c
  * Auth: Omar k Ahmed
  */
 
