@@ -1,5 +1,5 @@
 /*
- * File: 102-print_comb5.c
+ * File: 9-print_comb.c
  * Auth: Omar k Ahmed
  */
 #include <stdio.h>
