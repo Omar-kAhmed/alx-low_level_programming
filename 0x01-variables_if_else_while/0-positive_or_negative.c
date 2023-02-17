@@ -20,7 +20,7 @@ n = rand() - RAND_MAX / 2;
 
 if (n >0){
  
-  printf("%d is a positive⧵",n);
+  printf("%d is a positive⧵n"n)
 
 }
 
@@ -32,7 +32,7 @@ else if (n<0){
 
 else {
   
-  printf("The number %d is zero⧵n",n);
+  printf("%d is zero⧵n",n);
 
 }
 
