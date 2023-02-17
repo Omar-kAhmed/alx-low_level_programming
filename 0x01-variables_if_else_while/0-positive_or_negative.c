@@ -20,19 +20,19 @@ n = rand() - RAND_MAX / 2;
 
 if (n >0){
  
-  printf("%d is a positive number/n",n);
+  printf("%d is a positive⧵",n);
 
 }
 
 else if (n<0){
 
-  printf("%d is a negative number/n",n);
+  printf("%d is a negative⧵n",n);
 
 }
 
 else {
   
-  printf("The number %d is zero/n",n);
+  printf("The number %d is zero⧵n",n);
 
 }
 
