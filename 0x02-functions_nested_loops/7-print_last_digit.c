@@ -1,6 +1,6 @@
 /*
  * File: 7-print_last_digit.c
- * Auth: Brennan D Baraban
+ * Auth: Omar Ahmed
  */
 
 #include "holberton.h"
