@@ -1,6 +1,6 @@
 /*
  * File: 100-prime_factor.c
- * Auth: Brennan D Baraban
+ * Auth: Omar K Ahmed
  */
 
 #include <stdio.h>
