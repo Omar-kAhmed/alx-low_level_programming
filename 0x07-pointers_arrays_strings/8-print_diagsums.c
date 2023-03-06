@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /**
  * print_diagsums - prints both sums of diagonal numbers in a 2d array
  *
