@@ -1,34 +1,16 @@
-#ifndef _3_PUTS_H_
-#define _3_PUTS_H_
-
-#include <stdio.h>
-
+#include "holberton.h"
 /**
- * _puts - Writes a string to stdout, followed by a newline.
- *
- * @str: The string to be written.
- *
- * Return: void.
+ * _puts - Check if a number is greater than 0
+ * @str: The number to be checked
  */
-
-void _puts(char *str);
-
-#endif /* _3_PUTS_H_ */
-
-#include "3-puts.h"
-
-/**
- * _puts - Writes a string to stdout, followed by a newline.
- *
- * @str: The string to be written.
- *
- * Return: void.
- */
-
 void _puts(char *str)
 {
-	for (int i = 0; str[i] != '\0'; i++)
-		putchar(str[i]);
+	int i;
 
-	putchar('\n');
+	for (i = 0; *str != '\0'; i++)
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
