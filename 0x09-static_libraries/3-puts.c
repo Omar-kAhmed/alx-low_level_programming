@@ -1,10 +1,34 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+#ifndef _3_PUTS_H_
+#define _3_PUTS_H_
 
-void _puts(char *s)
+#include <stdio.h>
+
+/**
+ * _puts - Writes a string to stdout, followed by a newline.
+ *
+ * @str: The string to be written.
+ *
+ * Return: void.
+ */
+
+void _puts(char *str);
+
+#endif /* _3_PUTS_H_ */
+
+#include "3-puts.h"
+
+/**
+ * _puts - Writes a string to stdout, followed by a newline.
+ *
+ * @str: The string to be written.
+ *
+ * Return: void.
+ */
+
+void _puts(char *str)
 {
-    puts(s);
+	for (int i = 0; str[i] != '\0'; i++)
+		putchar(str[i]);
+
+	putchar('\n');
 }
