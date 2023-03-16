@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * malloc_checked - allocates memory using malloc
  * @b: size to be allocated
