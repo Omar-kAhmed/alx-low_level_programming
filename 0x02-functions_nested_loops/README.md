@@ -18,7 +18,7 @@ Write a program that prints `Holberton`, followed by a new line.
 
 * The program should return `0`
 
-**Solution:** [0-holberton.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/0-holberton.c)
+**Solution:** [0-holberton.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/0-holberton.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$  gcc -Wall -pedantic -Werror -Wextra _putchar.c 0-holberton.c -o 0-holberton
@@ -34,7 +34,7 @@ Write a function that prints the alphabet, in lowercase, followed by a new line.
 * Prototype: `void print_alphabet(void);`
 * You can only use `_putchar` twice in your code
 
-**Solution:** [1-alphabet.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c)
+**Solution:** [1-alphabet.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/1-alphabet.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 1-main.c
@@ -63,7 +63,7 @@ Write a function that prints 10 times the alphabet, in lowercase, followed by a 
 * Prototype: `void print_alphabet_x10(void);`
 * You can only use `_putchar` twice in your code
 
-**Solution:** [2-print_alphabet_x10.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c)
+**Solution:** [2-print_alphabet_x10.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/2-print_alphabet_x10.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 2-main.c
@@ -102,7 +102,7 @@ Write a function that checks for lowercase character.
 * Returns `1` if `c` is lowercase
 * Returns `0` otherwise
 
-**Solution:** [3-islower.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/3-islower.c)
+**Solution:** [3-islower.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/3-islower.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 3-main.c 
@@ -140,7 +140,7 @@ Write a function that checks for alphabetic character.
 * Returns `1` if `c` is a letter, lowercase or uppercase
 * Returns `0` otherwise
 
-**Solution:** [4-isalpha.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/4-isalpha.c)
+**Solution:** [4-isalpha.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/4-isalpha.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 4-main.c 
@@ -181,7 +181,7 @@ Write a function that prints the sign of a number.
 * Returns `0` and prints `0` if `n` is zero
 * Returns `-1` and prints `-` if `n` is less than zero
 
-**Solution:** [5-sign.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/5-sign.c)
+**Solution:** [5-sign.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/5-sign.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 5-main.c
@@ -233,7 +233,7 @@ Write a function that computes the absolute value of an integer.
 
 * Prototype: `int _abs(int)`;
 
-**Solution:** [6-abs.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/6-abs.c)
+**Solution:** [6-abs.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/6-abs.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 6-main.c
@@ -275,7 +275,7 @@ Write a function that prints the last digit of a number.
 * Prototype: `int print_last_digit(int);`
 * Returns the value of the last digit
 
-**Solution:** [7-print_last_digit.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/7-print_last_digit.c)
+**Solution:** [7-print_last_digit.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/7-print_last_digit.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 7-main.c
@@ -309,7 +309,7 @@ Write a function that prints every minute of the day of Jack Bauer, starting fro
 
 * Prototype: `void jack_bauer(void);`
 
-**Solution:** [8-24_hours.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/8-24_hours.c)
+**Solution:** [8-24_hours.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/8-24_hours.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 8-main.c
@@ -360,7 +360,7 @@ Write a function that prints the 9 times table, starting with 0.
 * Prototype: `void times_table(void);`
 * Format: see example
 
-**Solution:** [9-times_table.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/9-times_table.c)
+**Solution:** [9-times_table.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/9-times_table.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 9-main.c
@@ -408,7 +408,7 @@ Write a function that adds two integers and returns the result.
 
 * Prototype: `int add(int, int);`
 
-**Solution:** [10-add.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c)
+**Solution:** [10-add.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/10-add.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/$ cat 10-main.c
@@ -483,7 +483,7 @@ Write a function that prints the `n` times table, starting with 0.
 * If `n` is greater than `15` or less than `0` the function should not print anything
 * Format: see example
 
-**Solution:** [100-times_table.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/100-times_table.c)
+**Solution:** [100-times_table.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/100-times_table.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x02$ cat 100-main.c
@@ -569,7 +569,7 @@ If we list all the natural numbers below `10` that are multiples of `3` or `5`, 
 
 * You are allowed to use the standard library
 
-**Solution:** [101-natural.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/101-natural.c)
+**Solution:** [101-natural.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/101-natural.c)
 
 ## In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A
 
@@ -578,7 +578,7 @@ Write a program that prints the first 50 Fibonacci numbers, starting with `1` an
 * The numbers must be separated by comma, followed by a space `,` 
 * You are allowed to use the standard library
 
-**Solution:** [102-fibonacci.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/102-fibonacci.c)
+**Solution:** [102-fibonacci.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/102-fibonacci.c)
 
 ## Even Liber Abbaci
 
@@ -586,4 +586,4 @@ Each new term in the Fibonacci sequence is generated by adding the previous two 
 
 * You are allowed to use the standard library
 
-**Solution:** [103-fibonacci.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/103-fibonacci.c)
+**Solution:** [103-fibonacci.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x02-functions_nested_loops/103-fibonacci.c)
