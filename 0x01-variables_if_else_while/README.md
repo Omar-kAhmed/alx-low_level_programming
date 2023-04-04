@@ -33,7 +33,7 @@ This program will assign a random number to the variable `n` each time it is exe
         * if the number is less than 0: `is negative`
     * followed by a new line
 
-**Solution:** [0-positive_or_negative.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)
+**Solution:** [0-positive_or_negative.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/0-positive_or_negative.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 0-positive_or_negative.c -o 0-positive_or_negative
@@ -71,7 +71,7 @@ This program will assign a random number to the variable `n` each time it is exe
         * if the last digit of `n` is less than 6 and not 0: the string `and is less than 6 and not 0`
     * followed by a new line
 
-**Solution:** [1-last_digit.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c)
+**Solution:** [1-last_digit.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/1-last_digit.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 1-last_digit.c -o 1-last_digit
@@ -112,7 +112,7 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
 * All your code should be in the `main` function
 * You can only use `putchar` twice in your code
 
-**Solution:** [2-print_alphabet.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)
+**Solution:** [2-print_alphabet.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/2-print_alphabet.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 2-print_alphabet.c -o 2-print_alphabet
@@ -129,7 +129,7 @@ Write a program that prints the alphabet in lowercase, and then in uppercase, fo
 * All your code should be in the `main` function
 * You can only use `putchar` three times in your code
 
-**Solution:** [3-print_alphabets.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)
+**Solution:** [3-print_alphabets.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/3-print_alphabets.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 3-print_alphabets.c -o 3-print_alphabets
@@ -147,7 +147,7 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
 * All your code should be in the `main` function
 * You can only use `putchar` twice in your code
 
-**Solution:** [4-print_alphabt.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)
+**Solution:** [4-print_alphabt.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/4-print_alphabt.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 4-print_alphabt.c -o 4-print_alphabt
@@ -163,7 +163,7 @@ Write a program that prints all single digit numbers of base 10 starting from `0
 
 * All your code should be in the `main` function
 
-**Solution:** [5-print_numbers.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)
+**Solution:** [5-print_numbers.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/5-print_numbers.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 5-print_numbers.c -o 5-print_numbers
@@ -181,7 +181,7 @@ Write a program that prints all single digit numbers of base 10 starting from `0
 * You can only use `putchar` twice in your code
 * All your code should be in the `main` function
 
-**Solution:** [6-print_numberz.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c)
+**Solution:** [6-print_numberz.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/6-print_numberz.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 6-print_numberz.c -o 6-print_numberz
@@ -198,7 +198,7 @@ Write a program that prints the lowercase alphabet in reverse, followed by a new
 * All your code should be in the `main` function
 * You can only use `putchar` twice in your code
 
-**Solution:** [7-print_tebahpla.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)
+**Solution:** [7-print_tebahpla.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/7-print_tebahpla.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 7-print_tebahpla.c -o 7-print_tebahpla
@@ -215,7 +215,7 @@ Write a program that prints all the numbers of base 16 in lowercase, followed by
 * All your code should be in the `main` function
 * You can only use `putchar` three times in your code
 
-**Solution:** [8-print_base16.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)
+**Solution:** [8-print_base16.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/8-print_base16.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 8-print_base16.c -o 8-print_base16
@@ -235,7 +235,7 @@ Write a program that prints all possible combinations of single-digit numbers.
 * You can only use `putchar` four times maximum in your code
 * You are not allowed to use any variable of type `char`
 
-**Solution:** [9-print_comb.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c)
+**Solution:** [9-print_comb.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/9-print_comb.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 9-print_comb.c -o 9-print_comb
@@ -278,7 +278,7 @@ Write a program that prints all possible different combinations of two digits.
 * You are not allowed to use any variable of type `char`
 * All your code should be in the `main` function
 
-**Solution:** [100-print_comb3.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c)
+**Solution:** [100-print_comb3.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/100-print_comb3.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 100-print_comb3.c -o 100-print_comb3
@@ -301,7 +301,7 @@ Write a program that prints all possible different combinations of three digits.
 * You are not allowed to use any variable of type `char`
 * All your code should be in the `main` function
 
-**Solution:** [101-print_comb4.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c)
+**Solution:** [101-print_comb4.c](https://github.com/Omar-kAhmed/alx-low_level_programming/blob/main/0x01-variables_if_else_while/101-print_comb4.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 101-print_comb4.c -o 101-print_comb4
