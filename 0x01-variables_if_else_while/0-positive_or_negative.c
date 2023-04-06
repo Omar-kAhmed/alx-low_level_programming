@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Auth: Brennan D Baraban
+ * Auth: Omar K Ahmed
  */
 
 #include <stdlib.h>
