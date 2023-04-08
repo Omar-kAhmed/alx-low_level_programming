@@ -1,34 +1,27 @@
 #include "main.h"
+
 /**
  * print_binary - prints the binary representation of a number
- * @n: the number to be printed in binary
+ * @n: parameter
  */
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int bit_op = 1;
-	int bit_point = 0;
-	/* Locate the most significant bit */
-	while ((n >> bit_point) != 0)
+	int i, count = 0;
+	unsigned long int current;
+
+	for (i = 63; i >= 0; i--)
 	{
-		bit_point++;
-	}
-	bit_point--;
-	/* Output binary digits using else if statements */
-	while (bit_point >= 0)
-	{
-		if ((n >> bit_point) & bit_op)
+		current = n >> i;
+
+		if (current & 1)
 		{
 			_putchar('1');
+			count++;
 		}
-		else if (!((n >> bit_point) & bit_op) && bit_point != 0)
-		{
+		else if (count)
 			_putchar('0');
-		}
-		else
-		{
-			_putchar('0');
-		}
-		bit_point--;
 	}
+	if (!count)
+		_putchar('0');
 }
