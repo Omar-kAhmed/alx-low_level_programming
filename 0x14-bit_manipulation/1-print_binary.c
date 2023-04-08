@@ -1,39 +1,34 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include "holberton.h"
-
+#include "main.h"
 /**
-  * print_binary - Prints the binary representation of a number
-  * @n: The number to representing in binary
-  *
-  * Return: Nothing
-  */
+ * print_binary - prints the binary representation of a number
+ * @n: the number to be printed in binary
+ */
+
 void print_binary(unsigned long int n)
 {
-	if (n == 0)
+	unsigned long int bit_op = 1;
+	int bit_point = 0;
+	/* Locate the most significant bit */
+	while ((n >> bit_point) != 0)
 	{
-		_putchar('0');
-		return;
+		bit_point++;
 	}
-
-	_divide(n);
-}
-
-/**
-  * _divide - ...
-  * @n: ...
-  *
-  * Return: ...
-  */
-void _divide(unsigned long int n)
-{
-	if (n < 1)
-		return;
-
-	_divide(n >> 1);
-
-	if (n & 1)
-		_putchar('1');
-	else
-		_putchar('0');
+	bit_point--;
+	/* Output binary digits using else if statements */
+	while (bit_point >= 0)
+	{
+		if ((n >> bit_point) & bit_op)
+		{
+			_putchar('1');
+		}
+		else if (!((n >> bit_point) & bit_op) && bit_point != 0)
+		{
+			_putchar('0');
+		}
+		else
+		{
+			_putchar('0');
+		}
+		bit_point--;
+	}
 }

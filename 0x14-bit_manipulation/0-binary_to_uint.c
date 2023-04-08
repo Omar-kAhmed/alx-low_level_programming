@@ -1,47 +1,35 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include "holberton.h"
-
+#include "main.h"
 /**
-  * binary_to_uint - Converts a binary number to an unsigned int
-  * @b: The binary string to converts
-  *
-  * Return: The positive number converted from a binary
-  */
+ * binary_to_uint - converts a binary number to an unsigned int
+ * @b: pointer to a string of 0 and 1 chars
+ *
+ * Return: the converted number, or 0 if there is one or more chars
+ * in the string b that is not 0 or 1, or b is NULL
+ */
+
+/*using the power of 2 instead of bitwise*/
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int len = 0, count = 0, sum = 0;
+	int length = 0, _power = 1;
+	unsigned int result = 0, invalid = 0;
 
-	if (b == NULL)
-		return (0);
+	if (!b)
+		return (invalid);
 
-	len = _strlen(b);
-	while (len--)
+	while (b[length] != '\0') /*assessing the length of the string*/
+		length++;
+	length -= 1;
+
+	while (length >= 0) /*repeat from the tail of the string*/
 	{
-		if (b[len] != 48 && b[len] != 49)
-			return (0);
+		if ((b[length] != '0') && (b[length] != '1'))
+			return (invalid);
 
-		if (b[len] == 49)
-			sum += 1 << count;
+		if (b[length] == '1') /*If '1,' add the power of 2*/
+			result += _power;
 
-		count++;
+		_power *= 2; /*update the power of 2*/
+		length--;
 	}
-
-	return (sum);
-}
-
-/**
-  * _strlen - Returns the length of a string
-  * @s: String to count
-  *
-  * Return: String length
-  */
-int _strlen(const char *s)
-{
-	int c = 0;
-
-	while (s[c])
-		c++;
-
-	return (c);
+	return (result);
 }
