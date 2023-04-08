@@ -1,19 +1,34 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "holberton.h"
+
 /**
- * get_bit - gets the value of a bit at index,
- * starting from least bit at 0
- *
- * @n: number to get bit from
- * @index: index of bit
- *
- * Return: value of bit, or -1 if error
- */
+  * get_bit - Gets the value of a bit at a given index
+  * @n: The number to find the index
+  * @index: The index to find
+  *
+  * Return: ...
+  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned long int m;
+	unsigned int comp_i = 0;
 
-	if (index > 63)
-		return (-1);
+	while (n)
+	{
+		if (comp_i == index)
+		{
+			if (n % 2)
+				return (1);
+			else
+				return (0);
+		}
 
-	m = 1 << index;
-	return ((n & m) > 0);
+		n = n / 2;
+		comp_i++;
+	}
+
+	if (index > comp_i && index < 63)
+		return (0);
+
+	return (-1);
 }

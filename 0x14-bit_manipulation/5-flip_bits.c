@@ -1,22 +1,25 @@
+#include <stdlib.h>
+#include "holberton.h"
+
 /**
- * flip_bits - return number of bits that would need to be flipped to
- * transform one number to another
- *
- * @n: first number
- * @m: second number
- *
- * Return: number of bits to flip to convert numbers
- */
+  * flip_bits - ...
+  * @n: ...
+  * @m: ...
+  *
+  * Return: ...
+  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int xorval = n ^ m;
-	unsigned int count = 0;
+	unsigned long int mask = 0, count = 0;
 
-	while (xorval)
+	mask = n ^ m;
+	while (mask)
 	{
-		if (xorval & 1ul)
+		if (mask & 1)
 			count++;
-		xorval = xorval >> 1;
+
+		mask >>= 1;
 	}
+
 	return (count);
 }
